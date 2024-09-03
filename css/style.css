@@ -146,6 +146,14 @@ nav > div > a {
   transition: 0.5s;
   transform-origin: left center;
 }
+
+@media screen and (max-width: 767px) {
+  #navbarNav > ul > li a::after {
+    width: 100%;
+    left: 0;
+  }
+}
+
 #navbarNav > ul > li a.active::after {
   transform: scaleX(1);
 }
