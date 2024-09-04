@@ -52,6 +52,7 @@ h6 {
   z-index: 1000000;
   transition: 0.5s;
 }
+
 .preloader .circle {
   --size: 50px;
   content: "";
@@ -65,9 +66,9 @@ h6 {
   top: calc(50% - (var(--size) / 2));
   z-index: 100000000;
   transition: 1s;
-
   animation: preload 1s linear infinite both;
 }
+
 .preloader .top,
 .preloader .bottom {
   transition: 0.5s;
@@ -107,9 +108,15 @@ nav {
 .nav-inTop {
   position: absolute;
 }
+
 .nav-inTop > div > div > ul {
   padding: 2rem 0;
 }
+
+.nav-inTop .navbar-toggler-icon {
+  background-image: url("./../assets/icons/white.svg");
+}
+
 .nav-inTop > div > div > ul > li a::after {
   background-color: white;
 }
@@ -529,17 +536,21 @@ body > main > section.section6 > div > p {
   padding-top: 50px !important;
   padding-bottom: 120px !important;
 }
+
 body > main > section.section7 > div > div > div > div > div > h4 {
   font-size: 1.563rem;
   font-weight: 500;
 }
+
 body > main > section.section7 > div > div > div > div > div > p {
   font-size: 1.25rem;
   font-weight: 700;
 }
+
 body > main > section.section7 > div > div > div > div > div.image {
   position: relative;
 }
+
 body > main > section.section7 > div > div > div > div > div > div.overlay {
   --overlay-size: 97%;
   width: var(--overlay-size);
@@ -584,6 +595,7 @@ body
   > div.image {
   overflow: hidden;
 }
+
 body
   > main
   > section.section7
@@ -595,6 +607,7 @@ body
   > img {
   transition: 0.5s;
 }
+
 body
   > main
   > section.section7
@@ -606,6 +619,7 @@ body
   > img {
   transform: scale(1.2);
 }
+
 body
   > main
   > section.section7
@@ -620,6 +634,7 @@ body
   a {
   color: black !important;
 }
+
 body
   > main
   > section.section7
