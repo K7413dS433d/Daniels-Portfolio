@@ -14,8 +14,10 @@ Daniel's - Portfolio Website is a fully responsive personal portfolio designed t
 
 ## Live Demo
 
-Check out the live demo of Daniel's - Portfolio Website [here](https://vercel.com/k7413ds433ds-projects/daniels-portfolio).
+Check out the live demo of [Daniels - Portfolio Website](https://vercel.com/k7413ds433ds-projects/daniels-portfolio).
 
 ## Video
 
-Watch a walkthrough video of the project [here](#). _(Replace `#` with the actual video link)_
+Watch a walkthrough video of the project
+
+https://github.com/user-attachments/assets/c06ac177-9d5a-4260-a908-e992b0c046f5
